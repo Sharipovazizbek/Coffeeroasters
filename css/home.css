@@ -26,6 +26,17 @@
   font-display: swap;
 }
 
+/*CUSTOM PROPS*/
+:root {
+  --body-bg: #e5e5e5;
+  --black: #000000;
+  --text-color: #333333;
+  --reddish: #f3d7b7;
+  --gray: #f8f8f2;
+  --orange: #c99b67;
+  --green: #0a775f;
+}
+
 /*GLOBAL*/
 html {
   box-sizing: border-box;
