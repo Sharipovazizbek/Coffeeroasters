@@ -56,6 +56,7 @@ body {
   padding: 0;
   margin: 0;
   font-family: "Roboto", "Arial", sans-serif;
+  font-style: normal;
   font-size: 16px;
   line-height: 24px;
   background-color: var(--body-bg);
@@ -75,4 +76,81 @@ img {
   padding-right: 20px;
   margin-left: auto;
   margin-right: auto;
+}
+
+.top {
+  background-color: var(--reddish);
+}
+/*HEADER*/
+.main__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 50px 0 50px;
+  margin-bottom: 45px;
+}
+
+.Coffeeroasters__logo {
+  width: 235px;
+  height: 24px;
+}
+
+.Coffeeroasters__nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+}
+
+.Coffeeroasters__nav {
+  list-style: none;
+}
+
+.Coffeeroasters__nav-link {
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 24px;
+  letter-spacing: 1px;
+  color: var(--text-color);
+}
+
+/*HERO*/
+.Coffeeroasters__hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.Coffeeroasters__hero-content {
+  margin-left: 150px;
+}
+.Coffeeroasters__hero-heading {
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 75px;
+  color: var(--black);
+  margin-bottom: 24px;
+}
+.Coffeeroasters__hero-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: var(--black);
+  margin-bottom: 50px;
+}
+.Coffeeroasters__hero-link {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 1px;
+  text-decoration: none;
+  padding: 16px 24px;
+  border-radius: 100px;
+  background-color: var(--green);
+  color: #ffffff;
+}
+.Coffeeroasters__hero-img {
+  width: 660px;
+  height: 646px;
 }
