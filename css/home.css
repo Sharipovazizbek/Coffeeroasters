@@ -162,8 +162,7 @@ img {
 
 .collection__content {
   background-color: var(--gray);
-  margin: auto;
-  padding: 0;
+  margin-bottom: 20px;
 }
 
 .collection__heading {
@@ -202,5 +201,52 @@ img {
   font-weight: 400;
   font-size: 22px;
   line-height: 34px;
+  color: var(--text-color);
+}
+
+/*ABOUT*/
+.about {
+  background-color: var(--orange);
+  margin-bottom: 20px;
+}
+.about__content-top-heading {
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 59px;
+  text-align: center;
+  padding-top: 50px;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.about__content-top-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 60px;
+  text-align: center;
+  color: #ffffff;
+}
+.about__content-bottom {
+  display: flex;
+  justify-content: space-evenly;
+}
+.about__card {
+  width: 31%;
+}
+.about__content-bottom-img {
+  margin-bottom: 28px;
+}
+.about__content-bottom-heading {
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 35px;
+  margin-bottom: 10px;
+  color: var(--text-color);
+}
+.about__content-bottom-text {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
   color: var(--text-color);
 }
