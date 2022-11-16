@@ -12,10 +12,10 @@
     <link rel="stylesheet" href="./css/home.css" />
   </head>
   <body>
-    <div class="top">
-      <!--HEADER-->
+    <!--HEADER-->
+    <header class="main__header">
       <div class="container">
-        <header class="main__header">
+        <div class="main__header-content">
           <div class="Coffeeroasters__logo">
             <img
               src="./img/home/logo.svg"
@@ -39,125 +39,127 @@
               </li>
             </ul>
           </nav>
-        </header>
+        </div>
       </div>
+    </header>
 
-      <!--HERO-->
+    <!--HERO-->
+    <section class="coffeeroasters__hero">
       <div class="container">
-        <section class="Coffeeroasters__hero">
-          <div class="Coffeeroasters__hero-content">
-            <h1 class="Coffeeroasters__hero-heading">
+        <div class="coffeeroasters__hero-content">
+          <div class="coffeeroasters__hero-item">
+            <h1 class="coffeeroasters__hero-heading">
               Good coffee<br />
               is made simply.
             </h1>
 
-            <p class="Coffeeroasters__hero-text">
+            <p class="coffeeroasters__hero-text">
               Start your mornings with the world’s best coffees. Try our<br />
               expertly curated artisan coffees from our best roasters
               delivered<br />
               directly to your door, at your schedule.
             </p>
 
-            <a class="Coffeeroasters__hero-link" href="#">Create your plan</a>
+            <a class="coffeeroasters__hero-link" href="#">Create your plan</a>
           </div>
 
           <img
-            class="Coffeeroasters__hero-img"
+            class="coffeeroasters__hero-img"
             src="./img/home/coffee.jpg"
             srcset="./img/home/coffee.jpg 1x, ./img/home/coffee@2x.jpg 2x"
             alt="img-coffee"
           />
-        </section>
+        </div>
       </div>
-    </div>
+    </section>
 
     <!--MAIN-->
     <main class="coffeeroasters__main">
-      <!--COLLECTION-->
-      <section class="collection">
-        <div class="collection__content container">
-          <h2 class="collection__heading">our collection</h2>
-          <div class="collection__list">
-            <div class="collection__items">
-              <img
-                class="collection__img"
-                src="./img/home/danche.png"
-                srcset="./img/home/danche.png 1x, ./img/home/danche@2x.png 2x"
-                alt="img-danche"
-              />
-              <div class="collection__item">
-                <h2 class="collection__item-heading">Danche</h2>
-                <p class="collection__item-text">
-                  Ethiopian hand-harvested blend densely<br />
-                  packed with vibrant fruit notes.
-                </p>
+      <div class="container">
+        <!--COLLECTION-->
+        <section class="collection">
+          <div class="collection__content">
+            <h2 class="collection__heading">our collection</h2>
+            <div class="collection__list">
+              <div class="collection__items">
+                <img
+                  class="collection__img"
+                  src="./img/home/danche.png"
+                  srcset="./img/home/danche.png 1x, ./img/home/danche@2x.png 2x"
+                  alt="img-danche"
+                />
+                <div class="collection__item">
+                  <h2 class="collection__item-heading">Danche</h2>
+                  <p class="collection__item-text">
+                    Ethiopian hand-harvested blend densely<br />
+                    packed with vibrant fruit notes.
+                  </p>
+                </div>
               </div>
-            </div>
 
-            <div class="collection__items">
-              <div class="collection__item">
-                <h2 class="collection__item-heading">Gran Espresso</h2>
-                <p class="collection__item-text">
-                  Light and flavorful blend with cocoa<br />
-                  and black pepper for an intense<br />
-                  experience.
-                </p>
+              <div class="collection__items">
+                <div class="collection__item">
+                  <h2 class="collection__item-heading">Gran Espresso</h2>
+                  <p class="collection__item-text">
+                    Light and flavorful blend with cocoa<br />
+                    and black pepper for an intense<br />
+                    experience.
+                  </p>
+                </div>
+                <img
+                  class="collection__img"
+                  src="./img/home/gran-espresso.png"
+                  srcset="
+                    ./img/home/gran-espresso.png    1x,
+                    ./img/home/gran-espresso@2x.png 2x
+                  "
+                  alt="img-gran__espresso"
+                />
               </div>
-              <img
-                class="collection__img"
-                src="./img/home/gran-espresso.png"
-                srcset="
-                  ./img/home/gran-espresso.png    1x,
-                  ./img/home/gran-espresso@2x.png 2x
-                "
-                alt="img-gran__espresso"
-              />
-            </div>
 
-            <div class="collection__items">
-              <img
-                class="collection__img"
-                src="./img/home/piccollo.png"
-                srcset="
-                  ./img/home/piccollo.png    1x,
-                  ./img/home/piccollo@2x.png 2x
-                "
-                alt="img-piccollo"
-              />
-              <div class="collection__item">
-                <h2 class="collection__item-heading">Piccollo</h2>
-                <p class="collection__item-text">
-                  Mild and smooth blend featuring notes<br />
-                  of toasted almond and dried cherry.
-                </p>
+              <div class="collection__items">
+                <img
+                  class="collection__img"
+                  src="./img/home/piccollo.png"
+                  srcset="
+                    ./img/home/piccollo.png    1x,
+                    ./img/home/piccollo@2x.png 2x
+                  "
+                  alt="img-piccollo"
+                />
+                <div class="collection__item">
+                  <h2 class="collection__item-heading">Piccollo</h2>
+                  <p class="collection__item-text">
+                    Mild and smooth blend featuring notes<br />
+                    of toasted almond and dried cherry.
+                  </p>
+                </div>
               </div>
-            </div>
 
-            <div class="collection__items">
-              <div class="collection__item">
-                <h2 class="collection__item-heading">Planalto</h2>
-                <p class="collection__item-text">
-                  Brazilian dark roast with rich and velvety<br />
-                  body, and hints of fruits and nuts.
-                </p>
+              <div class="collection__items">
+                <div class="collection__item">
+                  <h2 class="collection__item-heading">Planalto</h2>
+                  <p class="collection__item-text">
+                    Brazilian dark roast with rich and velvety<br />
+                    body, and hints of fruits and nuts.
+                  </p>
+                </div>
+                <img
+                  class="collection__img"
+                  src="./img/home/planalto.png"
+                  srcset="
+                    ./img/home/planalto.png    1x,
+                    ./img/home/planalto@2x.png 2x
+                  "
+                  alt="img-planalto"
+                />
               </div>
-              <img
-                class="collection__img"
-                src="./img/home/planalto.png"
-                srcset="
-                  ./img/home/planalto.png    1x,
-                  ./img/home/planalto@2x.png 2x
-                "
-                alt="img-planalto"
-              />
             </div>
           </div>
-        </div>
-      </section>
+        </section>
 
-      <!--ABOUT-->
-      <section class="about">
-        <div class="container">
+        <!--ABOUT-->
+        <section class="about">
           <div class="about__content">
             <div class="about__content-top">
               <h2 class="about__content-top-heading">Why choose us?</h2>
@@ -225,8 +227,67 @@
               </div>
             </div>
           </div>
-        </div>
-      </section>
+        </section>
+
+        <!--PROCESS-->
+        <section class="process">
+          <div class="container"></div>
+        </section>
+      </div>
     </main>
+
+    <!--FOOTER-->
+    <footer class="coffeeroasters__footer">
+      <div class="container">
+        <div class="coffeeroasters__footer-content">
+          <img
+            src="./img/home/logo.svg"
+            alt="img-logo"
+            width="235px"
+            height="24px"
+          />
+
+          <nav>
+            <ul class="Coffeeroasters__nav">
+              <li>
+                <a class="Coffeeroasters__nav-link" href="#">HOME</a>
+              </li>
+              <li>
+                <a class="Coffeeroasters__nav-link" href="#">ABOUT US</a>
+              </li>
+              <li>
+                <a class="Coffeeroasters__nav-link" href="#"
+                  >Create your plan</a
+                >
+              </li>
+            </ul>
+          </nav>
+
+          <div class="Coffeeroasters__social">
+            <a href="#">
+              <img
+                class="Coffeeroasters__social-icon"
+                src="./img/home/icon-facebooc.svg"
+                alt="icon-facebooc"
+              />
+            </a>
+            <a href="#">
+              <img
+                class="Coffeeroasters__social-icon"
+                src="./img/home/icon-tvitter.svg"
+                alt="icon-tvitter"
+              />
+            </a>
+            <a href="#">
+              <img
+                class="Coffeeroasters__social-icon"
+                src="./img/home/icon-instagram.svg"
+                alt="icon-instagram"
+              />
+            </a>
+          </div>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>

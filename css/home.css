@@ -73,18 +73,16 @@ img {
   margin: 0 auto;
 }
 
-.top {
-  background-color: var(--reddish);
-  overflow-x: hidden;
-}
-
 /*HEADER*/
 .main__header {
+  background-color: var(--reddish);
+}
+.main__header-content {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-top: 20px;
-  margin-bottom: 45px;
+  padding-top: 30px;
+  padding-bottom: 45px;
 }
 
 .Coffeeroasters__logo {
@@ -109,30 +107,33 @@ img {
 }
 
 /*HERO*/
-.container .Coffeeroasters__hero {
+.coffeeroasters__hero {
+  background-color: var(--reddish);
+}
+.coffeeroasters__hero-content {
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin-right: -80px;
 }
-.Coffeeroasters__hero-content {
+.coffeeroasters__hero-content {
   padding-left: 40px;
 }
-.Coffeeroasters__hero-heading {
+.coffeeroasters__hero-heading {
   font-weight: 700;
   font-size: 64px;
   line-height: 75px;
   color: var(--black);
   margin-bottom: 24px;
 }
-.Coffeeroasters__hero-text {
+.coffeeroasters__hero-text {
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
   color: var(--black);
   margin-bottom: 50px;
 }
-.Coffeeroasters__hero-link {
+.coffeeroasters__hero-link {
   font-weight: 500;
   font-size: 16px;
   line-height: 19px;
@@ -142,7 +143,7 @@ img {
   background-color: var(--green);
   color: #ffffff;
 }
-.Coffeeroasters__hero-img {
+.coffeeroasters__hero-img {
   width: 50%;
 }
 
@@ -151,8 +152,8 @@ img {
   padding: 20px 20px;
   background-color: #ffffff;
 }
-/*COLLECTION*/
 
+/*COLLECTION*/
 .collection {
   background-image: url(../img/home/collection__background.svg);
   background-repeat: no-repeat;
@@ -207,7 +208,6 @@ img {
 /*ABOUT*/
 .about {
   background-color: var(--orange);
-  margin-bottom: 20px;
 }
 .about__content-top-heading {
   font-weight: 700;
@@ -249,4 +249,22 @@ img {
   font-size: 18px;
   line-height: 28px;
   color: var(--text-color);
+}
+
+/*FOOTER*/
+.coffeeroasters__footer {
+  background-color: var(--reddish);
+}
+.coffeeroasters__footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 0;
+}
+.Coffeeroasters__social-icon:last-child {
+  margin-right: 30px;
+}
+.Coffeeroasters__social-icon {
+  width: 30px;
+  height: 30px;
 }
