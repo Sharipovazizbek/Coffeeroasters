@@ -25,7 +25,6 @@
 
 /*CUSTOM PROPS*/
 :root {
-  --body-bg: #e5e5e5;
   --black: #000000;
   --text-color: #333333;
   --reddish: #f3d7b7;
@@ -59,8 +58,9 @@ ul {
 
 body {
   font-family: "Roboto", "Arial", sans-serif;
-  background-color: var(--body-bg);
   color: var(--black);
+  max-width: 1600px;
+  margin: 0 auto;
 }
 
 img {
@@ -74,6 +74,19 @@ img {
 }
 
 /* CLASSES */
+.bgd {
+  background-color: var(--gray);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  padding: 50px 0;
+  margin-bottom: 20px;
+}
+
+.dp {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 
 .btn {
   border-radius: 100px;
@@ -147,6 +160,9 @@ img {
 .coffeeroasters__hero-content {
   padding-left: 70px;
 }
+.coffeeroasters__hero-item {
+  padding-right: 12%;
+}
 .coffeeroasters__hero-heading {
   font-size: 64px;
   line-height: 75px;
@@ -169,13 +185,6 @@ img {
 /*COLLECTION*/
 .collection {
   background-image: url(../img/home/collection__background.svg);
-  background-repeat: no-repeat;
-  background-size: 100%;
-  padding: 50px 0;
-}
-.collection {
-  background-color: var(--gray);
-  margin-bottom: 20px;
 }
 .collection__list {
   margin-top: 80px;
@@ -304,4 +313,15 @@ img {
 .Coffeeroasters__social-icon {
   width: 30px;
   height: 30px;
+}
+
+/*OBLIGATON*/
+.obligations {
+  background-image: url(../img/about-us/obligations-background.png);
+}
+.obligations__img {
+  width: 30%;
+}
+.obligations__item {
+  width: 45%;
 }
