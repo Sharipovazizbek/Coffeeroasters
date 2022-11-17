@@ -102,21 +102,32 @@ img {
 .btn-brown {
   background: var(--orange);
 }
+
 .text-md {
   line-height: 28px;
   margin: 10px 0;
-}
-.section-header {
-  font-size: 40px;
-  text-transform: uppercase;
-  line-height: 60px;
-  text-align: center;
 }
 .text-black {
   color: var(--black);
 }
 .text-white {
   color: #fff;
+}
+
+.section-header {
+  font-size: 40px;
+  text-transform: uppercase;
+  line-height: 60px;
+  text-align: center;
+}
+.header-black {
+  color: var(--black);
+}
+.header-gray {
+  color: var(--text-color);
+}
+.header-white {
+  color: #ffffff;
 }
 
 /*HEADER*/
@@ -297,6 +308,43 @@ img {
   padding-bottom: 60px;
 }
 
+/*OBLIGATON*/
+.obligations {
+  background-image: url(../img/about-us/obligations-background.png);
+  margin-bottom: 200px;
+}
+.obligations__img {
+  width: 30%;
+}
+.obligations__item {
+  width: 45%;
+}
+
+/*QUALITY*/
+.quality {
+  background-color: var(--orange);
+}
+.quality__item {
+  width: 48%;
+  padding: 110px 0;
+}
+.quality_img {
+  width: 45%;
+  margin-top: -220px;
+}
+
+/*ADDRESS*/
+.address {
+  background-image: url("../img/home/process-bg.svg"),
+    linear-gradient(to right, var(--green), var(--green));
+  padding: 50px 0;
+  margin-top: 20px;
+}
+.address-cart {
+  width: 130px;
+  margin: 55px 0 0 160px;
+}
+
 /*FOOTER*/
 .coffeeroasters__footer {
   background-color: var(--reddish);
@@ -313,15 +361,4 @@ img {
 .Coffeeroasters__social-icon {
   width: 30px;
   height: 30px;
-}
-
-/*OBLIGATON*/
-.obligations {
-  background-image: url(../img/about-us/obligations-background.png);
-}
-.obligations__img {
-  width: 30%;
-}
-.obligations__item {
-  width: 45%;
 }
